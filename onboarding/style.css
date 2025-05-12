@@ -6,6 +6,8 @@
     color: rgb(252, 251, 249);
 }
 
+/*styling of the checklist and checkboxes to fit the theme*/
+
 .checklist{
     display: flex;
     flex-direction: column;
@@ -29,6 +31,8 @@ input[type="checkbox"]{
     margin: 0;
     accent-color: rgb(220, 200, 166); 
 }
+
+/*centering and styling of the elements to fit the theme*/
 
 .help{
     font-size: 2.4rem;

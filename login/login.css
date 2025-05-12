@@ -7,6 +7,8 @@ body{
     margin: 0;
 }
 
+/*split the page vertically with welcome on left and login form on right*/
+
 .row{
     margin: 0;
     padding: 0;
@@ -36,9 +38,7 @@ body{
     padding-bottom: 150px;
 }
 
-.user{
-    font-size: 1.7rem;
-}
+/*styling the h1 to be bold and contrast the background*/
 
 .welcome{
     color: rgb(220, 200, 166);
@@ -46,6 +46,8 @@ body{
     padding-top: 150px;
     width: 75%;
 }
+
+/*styling the <p> element*/
 
 .intro{
     color: rgb(252, 251, 249);
@@ -55,16 +57,30 @@ body{
     margin-left: 70px;
 }
 
+/*make a section of the <p> bold to emphasize the message*/
+
 .bold{
     font-weight: 700;
     font-size: 1.4rem
 }
+
+/*user login styling*/
+
+.user{
+    font-size: 1.8rem;
+    color: rgb(34, 40, 49);
+    text-decoration: underline;
+}
+
+/*adjusting the position of elements on the right side*/
 
 #email, #password, #login{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
+/*styling the login button*/
 
 #login{
     width: 184px;
@@ -87,6 +103,8 @@ body{
     opacity: 0.5;
 }
 
+/*email and password elements styling*/
+
 #email, #password{
     width: 300px;
     border: 1px solid rgb(34, 40, 49);
@@ -96,13 +114,19 @@ body{
     margin-bottom: 8px;
 }
 
+/*positioning of the forgot password and the sign up links*/
+
 .forgot{
-    margin: 0 90px 0 10px;
+    margin: 0 119px 0 10px;
 }
+
+/*space between the email and password*/
 
 #email{
     margin-bottom: 10px;
 }
+
+/*styling the <a> tags*/
 
 .forgot, .sign-up{
     text-decoration: none;
