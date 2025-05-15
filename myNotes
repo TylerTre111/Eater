@@ -4,9 +4,12 @@
 
 -Reminds you to eat, gives notification to your phone and tells you how much you should be eating
 
--Inputs current weight, weight goals, and how many calories/protein is needed to achieve
+-AI implementation for generating schedule
+
+-Authentication for sign in and forgetting password
 
 -Contact page for any inquiries
 
 -Responsive on both desktop and mobile devices
 
+ 
